@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Portafolio</title>
+</head>
+
+<body class="dark">
+    <header class="header">
+        <div class="switches">
+            <div id="toggle-theme" class="toggle-theme">
+                <img id="toggle-icon" src="assets/icons/moon.svg" alt="icon theme" class="toggle-theme__icon">
+                <p id="toggle-text" class="toggle-theme__text">Dark Mode</p>
+            </div>
+        </div>
+
+        <div id="toggle-colors" class="colors">
+            <div data-color="hsl(214, 84%, 56%) " class="colors__item
+            colors__item--blue"></div>
+
+            <div data-color="hsl(150, 84%, 56%)" class="colors__item 
+            colors__item--green"></div>
+
+            <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+            <div data-color="hsl(46, 84%, 56%)" class="colors__item 
+            colors__item--orange"></div>
+
+        </div>
+    </header>
+    <main class="main">
+        <section class="column column--left" -->
+            <article class="card card--profile">
+                <div class="card__image-container">
+                    <!--Profile Photo-->
+                    <img src="/assets/images/profile.jpg" alt="">
+                </div>
+                <div class="card__header">
+                    <h2 class="card__title">Boris Fernández</h2>
+                    <p class="card__subtitle">Desarrollador Back-End</p>
+                    <div class="car__body">
+                        <div class="card__link">
+                            <a href="https://www.linkedin.com/in/boris-fern%C3%A1ndez-a4a4031b1/" target="_blank" class="fa fa-linkedin-square"></a>
+                        </div>
+                        <div class="car__body">
+                            <div class="card__link">
+                                <a href="https://github.com/BorisMejia" target="_blank" class="fa fa-github"></a>
+                            </div>
+                        </div>
+                        <div class="car__body">
+                            <div class="card__link">
+                                <a href="mailto:borisfernandez916@gmail.com" target="_blank" class="fa fa-envelope-o"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="card__text">
+                                Como un desarrollador de back-end, me encargo de crear la parte de una aplicación que se
+                                ejecuta en el servidor. Mi trabajo consiste en escribir código que se encarga de
+                                gestionar la lógica de negocio de una aplicación, así como la comunicación con bases de
+                                datos y otras aplicaciones.
+                            </p>
+                        </div>
+                    </div>
+            </article>
+        </section>
+        <section class="column column--right">
+            <article class="card">
+                <h2 class="card__title">Back End</h2>
+                <div class="skills">
+                    <p class="skills__tech">JAVA</p>
+                </div>
+                <div class="skills">
+                    <p class="skills__tech">SPRING BOOT</p>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title">Front End</h2>
+                <div class="skills">
+                    <p class="skills__tech">HTML</p>
+                </div>
+                <div class="skills">
+                    <p class="skills__tech">CSS</p>
+                </div>
+            </article>
+            <article class="card">
+                <h2 class="card__title">DataBase</h2>
+                <div class="skills">
+                    <p class="skills__tech">SQL</p>
+                </div>
+                <div class="skills">
+                    <p class="skills__tech">NOSQL</p>
+                </div>
+            </article>
+            <article class="card card--proyect">
+                <div class="card__image-container">
+                    <img src="/assets/images/proyect/Login Java.png" alt="Login" class="card__image">
+                </div>
+                <div class="proyect">
+                    <div class="proyect__tags">
+                        <span class="proyect__tag">#HTML</span>
+                        <span class="proyect__tag">#CSS</span>
+                        <span class="proyect__tag">#JAVA</span>
+                        <span class="proyect__tag">#Spring</span>
+                    </div>
+                    <h2 class="card__title">Login Java Spring Boot</h2>
+                    <p class="card__text">
+                        Herramienta fundamental para la seguridad de la informacion de los usuarios que adceden a un
+                        sitio web. <br>
+                        Proceso de autenticación que permite al usuario acceder a la aplicación. si estos datos son
+                        correctos el usuario podrá ingresar.
+                    </p>
+                    <div class="buttons">
+                        <a href="" class="button button--primary">Demo</a>
+                        <a href="https://github.com/BorisMejia/Login-java" target="_blank"
+                            class="button button--ghost">Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card card--proyect">
+                <div class="card__image-container">
+                    <img src="/assets/images/proyect/Crud.png" alt="Crud" class="card__image">
+                </div>
+                <div class="proyect">
+                    <div class="proyect__tags">
+                        <span class="proyect__tag">#HTML</span>
+                        <span class="proyect__tag">#CSS</span>
+                        <span class="proyect__tag">#JAVA</span>
+                        <span class="proyect__tag">#Spring</span>
+                    </div>
+                    <h2 class="card__title">Crud Java Spring Boot</h2>
+                    <p class="card__text">
+                        Esta es una herramienta muy útil para administrar y gestionar información de manera sencilla y
+                        eficiente.
+                        <br>
+                        He desarrollado un CRUD utilizando tecnologías como Java su framework Spring Boot y MySQL. La
+                        interfaz de usuario es intuitiva y fácil de usar, lo que hace que sea una opción ideal para
+                        cualquier persona que necesite gestionar datos de manera rápida y eficiente.
+                    </p>
+                    <br><br><br>
+                    <div class="buttons">
+                        <a href="#" class="button button--primary">Demo</a>
+                        <a href="https://github.com/BorisMejia/CRUD" class="button button--ghost"
+                            target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="card card--proyect">
+                <div class="card__image-container">
+                    <img src="/assets/images/proyect/Finapp.jpeg" alt="Crud" class="card__image">
+                </div>
+                <div class="proyect">
+                    <div class="proyect__tags">
+                        <span class="proyect__tag">#JAVA</span>
+                    </div>
+                    <h2 class="card__title">App Movil</h2>
+                    <p class="card__text">
+                        Aplicacion movil para la visualización y localización en un mapa que indique los bancos, cajeros
+                        y corresponsales bancarios más cercanos.
+                        <br>
+                        Desarrolle esta aplicación movil utilizando tecnologías como java y el entorno de desarrolo
+                        Android
+                        Studio
+                    </p>
+                    <div class="buttons">
+                        <a href="#" class="button button--primary">Demo</a>
+                        <a href="https://github.com/BorisMejia/Finapp" class="button button--ghost"
+                            target="_blank">Code</a>
+                    </div>
+                </div>
+            </article>
+
+
+
+
+
+    </main>
+
+    <body>
+        <script src="js/scripts.js"></script>
+    </body>
+
+</html>
